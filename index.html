@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rotating Image Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- The below images links are from picsum website -->
+    <div class="intro">
+      <h1>Beauty of Ducks</h1>
+    <p>A duck is a small type of swimming bird with a short neck and legs. Webbed feet to help them swim and broad and flat bills, which they use to feed. They can live in freshwater or seawater and their feathers are waterproof! Male female ducks have very different appearances.</p>
+    </div>
+    <div class="image-container">
+      <span style="--i: 1;">
+        <img src="image/duck.jpg" loading="lazy" />
+      </span>
+      <span style="--i: 2;">
+        <img src="image/duck5.jpg" loading="lazy" />
+      </span>
+      <span style="--i: 3;">
+        <img src="image/duck4.jpg" loading="lazy" />
+      </span>
+      <span style="--i: 4;">
+        <img src="image/duck1.jpg" loading="lazy" />
+      </span>
+      <span style="--i: 5;">
+        <img src="image/duck6.jpg" loading="lazy" />
+      </span>
+      <span style="--i: 6;">
+        <img src="image/duck3.jpg" loading="lazy" />
+      </span>
+      <span style="--i: 7;">
+        <img src="image/duck2.jpg" loading="lazy" />
+      </span>
+      <span style="--i: 8;">
+        <img src="image/duck7.jpg" loading="lazy" />
+      </span>
+    </div>
+    <div class="buttons">
+      <button class="btn prev">Prev</button>
+      <button class="btn next">Next</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
